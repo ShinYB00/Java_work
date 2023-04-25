@@ -1,0 +1,26 @@
+package cote;
+
+import java.util.Scanner;
+import java.io.FileInputStream;
+
+public class Solution {
+	static int AnswerN;
+	static int N = 10;
+
+	public static void main(String args[]) throws Exception {
+		//System.setIn(new FileInputStream("C:\sample_input.txt"));
+		int size = 8;
+		int[] board = new int[2];
+		Boolean findX = false;
+		
+		Scanner sc = new Scanner(System.in);
+
+		int T = sc.nextInt();
+
+		for(int test_case = 1; test_case <= T; test_case++) {
+			N = sc.nextInt();
+			System.out.println("#"+test_case+" "+AnswerN);
+		}
+	}
+
+}
